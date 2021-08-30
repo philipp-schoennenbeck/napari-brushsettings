@@ -1,0 +1,11 @@
+site_name: napari-brushsettings
+site_description: A simple plugin to set the brush settings for segmentation in napari
+site_author: Philipp Schoennenbeck
+
+theme: readthedocs
+
+
+repo_url: https://github.com/Croxa/napari-brushsettings
+
+pages:
+- Home: index.md
