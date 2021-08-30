@@ -1,5 +1,5 @@
 """
-This module is a very simple plugin for the changing of the brush size for segmentation for napari
+This module is a very simple plugin for the changing of the brush size for segmentation in napari
 
 It implements the ``napari_experimental_provide_dock_widget`` hook specification.
 see: https://napari.org/docs/dev/plugins/hook_specifications.html
