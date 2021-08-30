@@ -1,5 +1,5 @@
-# import napari_brushsettings
-# import pytest
+import napari_brushsettings
+import pytest
 
 # this is your plugin name declared in your napari.plugins entry point
 # MY_PLUGIN_NAME = "napari-brushsettings"
@@ -18,4 +18,7 @@
 
 #     assert len(viewer.window._dock_widgets) == num_dw + 1
 
-pass
+# The Napari proposed test does not recognize the widgets. Here is a hello test
+# before fixing this issue
+def test_hello():
+    assert True
